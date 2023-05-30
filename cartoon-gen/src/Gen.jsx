@@ -5,6 +5,8 @@ import SearchComponent from "./SearchComponent";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Buffer } from "buffer";
+import logo1 from "./img/logo1.jpg"
+import logo2 from "./img/logo2.png"
 
 function Gen() {
   const navigate = useNavigate();
@@ -106,6 +108,7 @@ function Gen() {
                 />
               </div>
             </div>
+            {/*
             <ul>
               {selectedResult1.map((result, index) => (
                 <li key={index}>
@@ -124,6 +127,14 @@ function Gen() {
                 </li>
               ))}
             </ul>
+             */}
+
+            {selectedResult1.map((result, index) => (
+            <React.Fragment key={index}>
+                {index > 0 && ", "} {/* 쉼표와 공백 */}
+                {result.label} {result.value}
+            </React.Fragment>
+            ))}
             {loraSelector(selectedLora1, setSelecteLora1)}
           </div>
 
@@ -144,7 +155,7 @@ function Gen() {
                 />
               </div>
             </div>
-            <ul>
+            {/*<ul>
               {selectedResult2.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -161,7 +172,13 @@ function Gen() {
                   </button>
                 </li>
               ))}
-            </ul>
+                </ul>*/}
+            {selectedResult2.map((result, index) => (
+            <React.Fragment key={index}>
+                {index > 0 && ", "} {/* 쉼표와 공백 */}
+                {result.label} {result.value}
+            </React.Fragment>
+            ))}
             {loraSelector(selectedLora2, setSelecteLora2)}
           </div>
         </div>
@@ -183,7 +200,7 @@ function Gen() {
                 />
               </div>
             </div>
-            <ul>
+            {/*<ul>
               {selectedResult3.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -200,7 +217,13 @@ function Gen() {
                   </button>
                 </li>
               ))}
-            </ul>
+            </ul>*/}
+            {selectedResult3.map((result, index) => (
+            <React.Fragment key={index}>
+                {index > 0 && ", "} {/* 쉼표와 공백 */}
+                {result.label} {result.value}
+            </React.Fragment>
+            ))}
             {loraSelector(selectedLora3, setSelecteLora3)}
           </div>
 
@@ -221,7 +244,7 @@ function Gen() {
                 />
               </div>
             </div>
-            <ul>
+            {/*<ul>
               {selectedResult4.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -238,7 +261,13 @@ function Gen() {
                   </button>
                 </li>
               ))}
-            </ul>
+                </ul>*/}
+                {selectedResult4.map((result, index) => (
+            <React.Fragment key={index}>
+                {index > 0 && ", "} {/* 쉼표와 공백 */}
+                {result.label} {result.value}
+            </React.Fragment>
+            ))}
             {loraSelector(selectedLora4, setSelecteLora4)}
           </div>
         </div>
@@ -250,6 +279,8 @@ function Gen() {
       <div>
         <img src={"data:image/jpeg;base64," + image1.data} />
       </div>
+      <img src={logo1} width={200}/>
+      <img src={logo2} width={100} />
     </div>
   );
 }
