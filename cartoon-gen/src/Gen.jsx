@@ -10,19 +10,14 @@ import logo2 from "./img/logo2.png"
 
 function Gen() {
   const navigate = useNavigate();
-  const decodeBase64 = (base64data) => {
-    let base64ToString = Buffer.from(base64data, "base64").toString();
-    this.setState({ data: base64ToString });
-  };
-
+  // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
   const options = [
-    { label: "lora1", value: " <lora:byeori:0.75>" },
-    { label: "lora2", value: " <lora:garam:0.75>" },
-    { label: "lora3", value: " <lora:muni:0.75>" },
-    { label: "lora4", value: " <lora:taetae:0.75>" },
+    { label: "lora1", value: " <lora:byeori:0.75>," },
+    { label: "lora2", value: " <lora:garam:0.75>," },
+    { label: "lora3", value: " <lora:muni:0.75>," },
+    { label: "lora4", value: " <lora:taetae:0.75>," },
   ];
 
-  // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
   const [image1, setImage1] = useState("");
   const [selectedLora1, setSelecteLora1] = useState("");
   const [selectedLora2, setSelecteLora2] = useState("");
