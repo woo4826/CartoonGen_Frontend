@@ -89,3 +89,27 @@
   flex-wrap: wrap;
 
 }
+#generateBtn{
+  margin-top: 20px;
+  width:150px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0057FF;
+}
+.footer{
+  margin-top: 50px;
+}
+#img1{
+  margin-right: 50px;
+}
+#deleteBtn{
+  display: inline-block;
+}
+#tag{
+  width:200px;
+  display: block;
+  float: left;
+}

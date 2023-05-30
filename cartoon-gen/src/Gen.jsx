@@ -86,9 +86,16 @@ function Gen() {
     const updatedResults = sR.filter((_, i) => i !== index);
     setSR(updatedResults);
   };
+  const handleChangeValue = (index, newValue) => {
+    setSelectedResults1((prevState) => {
+      const updatedResults = [...prevState];
+      updatedResults[index].value = newValue;
+      return updatedResults;
+    });
+  };
   return (
     <div className="App">
-      <h1>카툰 제너레이터</h1>
+      <h1>네컷만화 생성기</h1>
       <div className="userInpuWrapper">
         <div className="cutWrapper_row">
           <div className="cutWrapper">
@@ -130,11 +137,15 @@ function Gen() {
              */}
 
             {selectedResult1.map((result, index) => (
-            <React.Fragment key={index}>
-                {index > 0 && ", "} {/* 쉼표와 공백 */}
-                {result.label} {result.value}
-            </React.Fragment>
-            ))}
+                    <React.Fragment key={index}>
+                        <input
+                        style={{display:"inline-block",float:"left"}}
+                        type="text"
+                        value={result.value}
+                        onChange={(e) => handleChangeValue(index, e.target.value)}
+                        /> 
+                    </React.Fragment>
+                ))}
             {loraSelector(selectedLora1, setSelecteLora1)}
           </div>
 
@@ -265,7 +276,7 @@ function Gen() {
                 {selectedResult4.map((result, index) => (
             <React.Fragment key={index}>
                 {index > 0 && ", "} {/* 쉼표와 공백 */}
-                {result.label} {result.value}
+                {result.value}
             </React.Fragment>
             ))}
             {loraSelector(selectedLora4, setSelecteLora4)}
@@ -274,13 +285,15 @@ function Gen() {
       </div>
 
       <div>
-        <button onClick={generate}>제너레이트</button>
+        <button id="generateBtn" onClick={generate}>생성</button>
       </div>
       <div>
-        <img src={"data:image/jpeg;base64," + image1.data} />
+       {/*<img src={"data:image/jpeg;base64," + image1.data} /> */} 
       </div>
-      <img src={logo1} width={200}/>
+      <div className="footer">
+      <img id="img1" src={logo1} width={200}/>
       <img src={logo2} width={100} />
+      </div>
     </div>
   );
 }
