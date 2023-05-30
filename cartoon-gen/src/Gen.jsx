@@ -14,11 +14,13 @@ function Gen() {
   };
 
   const options = [
-    { label: "lora1", value: "lora1String" },
-    { label: "lora2", value: "lora2String" },
-    { label: "lora3", value: "lora3String" },
-    { label: "lora4", value: "lora4String" },
+    { label: "lora1", value: " <lora:byeori:0.75>" },
+    { label: "lora2", value: " <lora:garam:0.75>" },
+    { label: "lora3", value: " <lora:muni:0.75>" },
+    { label: "lora4", value: " <lora:taetae:0.75>" },
   ];
+
+  // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
   const [image1, setImage1] = useState("");
   const [selectedLora1, setSelecteLora1] = useState("");
   const [selectedLora2, setSelecteLora2] = useState("");
