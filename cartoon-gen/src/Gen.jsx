@@ -5,8 +5,8 @@ import SearchComponent from "./SearchComponent";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Buffer } from "buffer";
-import logo1 from "./img/logo1.jpg"
-import logo2 from "./img/logo2.png"
+import logo1 from "./img/logo1.jpg";
+import logo2 from "./img/logo2.png";
 
 function Gen() {
   const navigate = useNavigate();
@@ -23,6 +23,10 @@ function Gen() {
   const [selectedLora2, setSelecteLora2] = useState("");
   const [selectedLora3, setSelecteLora3] = useState("");
   const [selectedLora4, setSelecteLora4] = useState("");
+  const [string1, setString1] = useState("");
+  const [string2, setString2] = useState("");
+  const [string3, setString3] = useState("");
+  const [string4, setString4] = useState("");
   const [selectedResult1, setSelectedResults1] = useState([]);
   const [selectedResult2, setSelectedResults2] = useState([]);
   const [selectedResult3, setSelectedResults3] = useState([]);
@@ -35,10 +39,10 @@ function Gen() {
     axios
       .post("http://127.0.0.1:8000/fastapi/make", {
         prompt: [
-          makePrompt(selectedResult1) + selectedLora1.value,
-          makePrompt(selectedResult2) + selectedLora2.value,
-          makePrompt(selectedResult3) + selectedLora3.value,
-          makePrompt(selectedResult4) + selectedLora4.value,
+          string1 + selectedLora1.value,
+          string2 + selectedLora2.value,
+          string3 + selectedLora3.value,
+          string4 + selectedLora4.value,
         ],
       })
       .then((response) => {
@@ -99,12 +103,14 @@ function Gen() {
                 <SearchComponent
                   type="place"
                   selectedResult={selectedResult1}
+                  setString={setString1}
                   setSelectedResults={setSelectedResults1}
                 />
               </div>
               <div className="cut">
                 <SearchComponent
                   type="move"
+                  setString={setString1}
                   selectedResult={selectedResult1}
                   setSelectedResults={setSelectedResults1}
                 />
@@ -130,17 +136,23 @@ function Gen() {
               ))}
             </ul>
              */}
-
-            {selectedResult1.map((result, index) => (
-                    <React.Fragment key={index}>
-                        <input
-                        style={{display:"inline-block",float:"left"}}
-                        type="text"
-                        value={result.value}
-                        onChange={(e) => handleChangeValue(index, e.target.value)}
-                        /> 
-                    </React.Fragment>
-                ))}
+            <input
+              className="input_text"
+              value={string1}
+              onChange={(e) => {
+                setString1(e.target.value);
+              }}
+            />
+            {/* {selectedResult1.map((result, index) => (
+              <React.Fragment key={index}>
+                <input
+                  style={{ display: "inline-block", float: "left" }}
+                  type="text"
+                  value={result.value}
+                  onChange={(e) => handleChangeValue(index, e.target.value)}
+                />
+              </React.Fragment>
+            ))} */}
             {loraSelector(selectedLora1, setSelecteLora1)}
           </div>
 
@@ -150,6 +162,7 @@ function Gen() {
                 <SearchComponent
                   type="place"
                   selectedResult={selectedResult2}
+                  setString={setString2}
                   setSelectedResults={setSelectedResults2}
                 />
               </div>
@@ -157,6 +170,7 @@ function Gen() {
                 <SearchComponent
                   type="move"
                   selectedResult={selectedResult2}
+                  setString={setString2}
                   setSelectedResults={setSelectedResults2}
                 />
               </div>
@@ -179,12 +193,13 @@ function Gen() {
                 </li>
               ))}
                 </ul>*/}
-            {selectedResult2.map((result, index) => (
-            <React.Fragment key={index}>
-                {index > 0 && ", "} {/* 쉼표와 공백 */}
-                {result.label} {result.value}
-            </React.Fragment>
-            ))}
+            <input
+              className="input_text"
+              value={string2}
+              onChange={(e) => {
+                setString2(e.target.value);
+              }}
+            />
             {loraSelector(selectedLora2, setSelecteLora2)}
           </div>
         </div>
@@ -195,6 +210,7 @@ function Gen() {
                 <SearchComponent
                   type="place"
                   selectedResult={selectedResult3}
+                  setString={setString3}
                   setSelectedResults={setSelectedResults3}
                 />
               </div>
@@ -202,6 +218,7 @@ function Gen() {
                 <SearchComponent
                   type="move"
                   selectedResult={selectedResult3}
+                  setString={setString3}
                   setSelectedResults={setSelectedResults3}
                 />
               </div>
@@ -224,12 +241,13 @@ function Gen() {
                 </li>
               ))}
             </ul>*/}
-            {selectedResult3.map((result, index) => (
-            <React.Fragment key={index}>
-                {index > 0 && ", "} {/* 쉼표와 공백 */}
-                {result.label} {result.value}
-            </React.Fragment>
-            ))}
+            <input
+              className="input_text"
+              value={string3}
+              onChange={(e) => {
+                setString3(e.target.value);
+              }}
+            />
             {loraSelector(selectedLora3, setSelecteLora3)}
           </div>
 
@@ -239,6 +257,7 @@ function Gen() {
                 <SearchComponent
                   type="place"
                   selectedResult={selectedResult4}
+                  setString={setString4}
                   setSelectedResults={setSelectedResults4}
                 />
               </div>
@@ -246,6 +265,7 @@ function Gen() {
                 <SearchComponent
                   type="move"
                   selectedResult={selectedResult4}
+                  setString={setString4}
                   setSelectedResults={setSelectedResults4}
                 />
               </div>
@@ -268,26 +288,27 @@ function Gen() {
                 </li>
               ))}
                 </ul>*/}
-                {selectedResult4.map((result, index) => (
-            <React.Fragment key={index}>
-                {index > 0 && ", "} {/* 쉼표와 공백 */}
-                {result.value}
-            </React.Fragment>
-            ))}
+            <input
+              className="input_text"
+              value={string4}
+              onChange={(e) => {
+                setString4(e.target.value);
+              }}
+            />
             {loraSelector(selectedLora4, setSelecteLora4)}
           </div>
         </div>
       </div>
 
       <div>
-        <button id="generateBtn" onClick={generate}>생성</button>
+        <button id="generateBtn" onClick={generate}>
+          생성
+        </button>
       </div>
-      <div>
-       {/*<img src={"data:image/jpeg;base64," + image1.data} /> */} 
-      </div>
+      <div>{/*<img src={"data:image/jpeg;base64," + image1.data} /> */}</div>
       <div className="footer">
-      <img id="img1" src={logo1} width={200}/>
-      <img src={logo2} width={100} />
+        <img id="img1" src={logo1} width={200} />
+        <img src={logo2} width={100} />
       </div>
     </div>
   );

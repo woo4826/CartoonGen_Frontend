@@ -11,14 +11,16 @@ const SearchComponent = (props) => {
     var data = props.type === "move" ? moveData : placeData;
     const selectedResult = props.selectedResult;
     const setSelectedResults = props.setSelectedResults;
+    const setString = props.setString;
     const options = data.list;
     const [selectValue, setSelectedValue] = useState([]);
 
     const handleSelectResult = (item) => {
-        setSelectedResults(prevList => {
-            return [...prevList, item[0]]
-        })
-        console.log(selectedResult)
+        setString(prevString => { return (prevString + (prevString !== "" ? ", " : "") + item[0].value) })
+        // setSelectedResults(prevList => {
+        //     return [...prevList, item[0]]
+        // })
+        // console.log(selectedResult)
     };
 
     return (

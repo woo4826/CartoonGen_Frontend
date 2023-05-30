@@ -113,3 +113,10 @@
   display: block;
   float: left;
 }
+.input_text{
+  padding :10px;
+  margin: 10px;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+}
