@@ -1,0 +1,920 @@
+{
+    "list": [
+        {
+            "label": "집",
+            "value": "house"
+        },
+        {
+            "label": "주방",
+            "value": "kitchen"
+        },
+        {
+            "label": "침실",
+            "value": "bedroom"
+        },
+        {
+            "label": "욕조",
+            "value": "bathtub"
+        },
+        {
+            "label": "거실",
+            "value": "living_room"
+        },
+        {
+            "label": "샤워실",
+            "value": "shower"
+        },
+        {
+            "label": "화장실",
+            "value": "bathroom"
+        },
+        {
+            "label": "지저분한",
+            "value": "방 messy_room"
+        },
+        {
+            "label": "칸막이",
+            "value": "화장실 toilet_stall"
+        },
+        {
+            "label": "나무",
+            "value": "위의 집 treehouse"
+        },
+        {
+            "label": "물",
+            "value": "위의 집 stilt_house"
+        },
+        {
+            "label": "벙커",
+            "value": "bunker"
+        },
+        {
+            "label": "성",
+            "value": "castle"
+        },
+        {
+            "label": "아파트",
+            "value": "apartment"
+        },
+        {
+            "label": "오두막",
+            "value": "hut"
+        },
+        {
+            "label": "오두막집",
+            "value": "shack"
+        },
+        {
+            "label": "오타쿠",
+            "value": "방 otaku_room"
+        },
+        {
+            "label": "움직이는",
+            "value": "성 floating_castle"
+        },
+        {
+            "label": "호텔",
+            "value": "hotel"
+        },
+        {
+            "label": "호텔",
+            "value": "방 hotel_room"
+        },
+        {
+            "label": "감옥",
+            "value": "prison"
+        },
+        {
+            "label": "감옥",
+            "value": "prison_cell"
+        },
+        {
+            "label": "건설",
+            "value": "현장 construction_site"
+        },
+        {
+            "label": "도시",
+            "value": "city"
+        },
+        {
+            "label": "공원",
+            "value": "park"
+        },
+        {
+            "label": "도시",
+            "value": "(마을) village"
+        },
+        {
+            "label": "도시",
+            "value": "(빌딩) town"
+        },
+        {
+            "label": "도시",
+            "value": "(시골) rural"
+        },
+        {
+            "label": "도시",
+            "value": "(이동) floating_city"
+        },
+        {
+            "label": "묘지",
+            "value": "graveyard"
+        },
+        {
+            "label": "무대",
+            "value": "stage"
+        },
+        {
+            "label": "법정",
+            "value": "courtroom"
+        },
+        {
+            "label": "병실",
+            "value": "infirmary"
+        },
+        {
+            "label": "병원",
+            "value": "hospital"
+        },
+        {
+            "label": "신사",
+            "value": "shrine"
+        },
+        {
+            "label": "옥상",
+            "value": "rooftop"
+        },
+        {
+            "label": "유적",
+            "value": "ruins"
+        },
+        {
+            "label": "이벤트",
+            "value": "회장 convention"
+        },
+        {
+            "label": "절",
+            "value": "temple"
+        },
+        {
+            "label": "정원",
+            "value": "garden"
+        },
+        {
+            "label": "지하",
+            "value": "감옥 dungeon"
+        },
+        {
+            "label": "1인",
+            "value": "사무실 cubicle"
+        },
+        {
+            "label": "교실",
+            "value": "classroom"
+        },
+        {
+            "label": "구내",
+            "value": "식당 cafeteria"
+        },
+        {
+            "label": "나무다리",
+            "value": "wooden_bridge"
+        },
+        {
+            "label": "다리",
+            "value": "bridge"
+        },
+        {
+            "label": "댐",
+            "value": "dam"
+        },
+        {
+            "label": "교회",
+            "value": "church"
+        },
+        {
+            "label": "도서관",
+            "value": "library"
+        },
+        {
+            "label": "동아리방",
+            "value": "clubroom"
+        },
+        {
+            "label": "둑",
+            "value": "dock"
+        },
+        {
+            "label": "레스토랑",
+            "value": "restaurant"
+        },
+        {
+            "label": "밧줄다리",
+            "value": "rope_bridge"
+        },
+        {
+            "label": "별자리",
+            "value": "투영기 planetarium"
+        },
+        {
+            "label": "분수",
+            "value": "fountain"
+        },
+        {
+            "label": "수로",
+            "value": "aqueduct"
+        },
+        {
+            "label": "시장",
+            "value": "market"
+        },
+        {
+            "label": "시장",
+            "value": "마켓 market_stall"
+        },
+        {
+            "label": "가게",
+            "value": "pharmacy"
+        },
+        {
+            "label": "가게",
+            "value": "shop"
+        },
+        {
+            "label": "꽃집",
+            "value": "flower_shop"
+        },
+        {
+            "label": "무기",
+            "value": "상점 weapon_shop"
+        },
+        {
+            "label": "빵집",
+            "value": "bakery"
+        },
+        {
+            "label": "샬롱",
+            "value": "salon"
+        },
+        {
+            "label": "서점",
+            "value": "bookstore"
+        },
+        {
+            "label": "슈퍼마켓",
+            "value": "supermarket"
+        },
+        {
+            "label": "성인도구",
+            "value": "판매점 sex_shop"
+        },
+        {
+            "label": "편의점",
+            "value": "convenience_store"
+        },
+        {
+            "label": "식당",
+            "value": "dining_room"
+        },
+        {
+            "label": "실험실",
+            "value": "laboratory"
+        },
+        {
+            "label": "온실",
+            "value": "conservatory"
+        },
+        {
+            "label": "온실",
+            "value": "greenhouse"
+        },
+        {
+            "label": "외양간",
+            "value": "barn"
+        },
+        {
+            "label": "작업장",
+            "value": "workshop"
+        },
+        {
+            "label": "전망대",
+            "value": "gazebo"
+        },
+        {
+            "label": "전화",
+            "value": "부스 phone_booth"
+        },
+        {
+            "label": "주차장",
+            "value": "parking_lot"
+        },
+        {
+            "label": "사무실",
+            "value": "office"
+        },
+        {
+            "label": "직원실",
+            "value": "staff_room"
+        },
+        {
+            "label": "창고",
+            "value": "storage_room"
+        },
+        {
+            "label": "창고",
+            "value": "(무기고) armory"
+        },
+        {
+            "label": "창고",
+            "value": "(옷장) closet"
+        },
+        {
+            "label": "탈의실",
+            "value": "changing_room"
+        },
+        {
+            "label": "탈의실",
+            "value": "dressing_room"
+        },
+        {
+            "label": "터널",
+            "value": "tunnel"
+        },
+        {
+            "label": "피팅룸",
+            "value": "fitting_room"
+        },
+        {
+            "label": "학교",
+            "value": "school"
+        },
+        {
+            "label": "라커룸",
+            "value": "locker_room"
+        },
+        {
+            "label": "볼링장",
+            "value": "bowling_alley"
+        },
+        {
+            "label": "수영장",
+            "value": "pool"
+        },
+        {
+            "label": "스케이트장",
+            "value": "skating_rink"
+        },
+        {
+            "label": "운동장",
+            "value": "playground"
+        },
+        {
+            "label": "운동장",
+            "value": "경기장 running_track"
+        },
+        {
+            "label": "운동장",
+            "value": "축구장 soccer_field"
+        },
+        {
+            "label": "워터",
+            "value": "파크 waterpark"
+        },
+        {
+            "label": "체육관",
+            "value": "창고 gym_storeroom"
+        },
+        {
+            "label": "풀사이드",
+            "value": "poolside"
+        },
+        {
+            "label": "헬스장",
+            "value": "gym"
+        },
+        {
+            "label": "게임장",
+            "value": "arcade"
+        },
+        {
+            "label": "경기장",
+            "value": "stadium"
+        },
+        {
+            "label": "관람차",
+            "value": "ferris_wheel"
+        },
+        {
+            "label": "극장",
+            "value": "영화관 amphitheater"
+        },
+        {
+            "label": "극장",
+            "value": "원형 극장 theater"
+        },
+        {
+            "label": "놀이",
+            "value": "공원 amusement_park"
+        },
+        {
+            "label": "동물원",
+            "value": "zoo"
+        },
+        {
+            "label": "롤러",
+            "value": "코스터 roller_coaster"
+        },
+        {
+            "label": "미술관",
+            "value": "art_gallery"
+        },
+        {
+            "label": "박물관",
+            "value": "museum"
+        },
+        {
+            "label": "쇼핑",
+            "value": "센터 mall"
+        },
+        {
+            "label": "수족관",
+            "value": "aquarium"
+        },
+        {
+            "label": "술집",
+            "value": "bar"
+        },
+        {
+            "label": "영화관",
+            "value": "movie_theater"
+        },
+        {
+            "label": "온천",
+            "value": "onsen"
+        },
+        {
+            "label": "전망대",
+            "value": "observatory"
+        },
+        {
+            "label": "카지노",
+            "value": "casino"
+        },
+        {
+            "label": "카페",
+            "value": "cafe"
+        },
+        {
+            "label": "클럽",
+            "value": "nightclub"
+        },
+        {
+            "label": "투기장",
+            "value": "arena"
+        },
+        {
+            "label": "회전목마",
+            "value": "carousel"
+        },
+        {
+            "label": "공항",
+            "value": "airport"
+        },
+        {
+            "label": "공항",
+            "value": "격납고 hangar"
+        },
+        {
+            "label": "공항",
+            "value": "컨트롤 타워 control_tower"
+        },
+        {
+            "label": "공항",
+            "value": "통로 runway"
+        },
+        {
+            "label": "교각",
+            "value": "pier"
+        },
+        {
+            "label": "교각",
+            "value": "선착장 jetty"
+        },
+        {
+            "label": "기차역",
+            "value": "train_station"
+        },
+        {
+            "label": "도로",
+            "value": "road"
+        },
+        {
+            "label": "도로",
+            "value": "거리 street"
+        },
+        {
+            "label": "도로",
+            "value": "고속도로 highway"
+        },
+        {
+            "label": "도로",
+            "value": "골목 alley"
+        },
+        {
+            "label": "도로",
+            "value": "길 path"
+        },
+        {
+            "label": "도로",
+            "value": "돌산책로 stone_walkway"
+        },
+        {
+            "label": "도로",
+            "value": "보도 sidewalk"
+        },
+        {
+            "label": "도로",
+            "value": "횡단 보도 crosswalk"
+        },
+        {
+            "label": "도로",
+            "value": "흙길 dirt_road"
+        },
+        {
+            "label": "버스",
+            "value": "정류장 bus_stop"
+        },
+        {
+            "label": "비행장",
+            "value": "airfield"
+        },
+        {
+            "label": "공항",
+            "value": "airport"
+        },
+        {
+            "label": "공항",
+            "value": "격납고 hangar"
+        },
+        {
+            "label": "공항",
+            "value": "컨트롤 타워 control_tower"
+        },
+        {
+            "label": "공항",
+            "value": "통로 runway"
+        },
+        {
+            "label": "교각",
+            "value": "pier"
+        },
+        {
+            "label": "교각",
+            "value": "선착장 jetty"
+        },
+        {
+            "label": "기차역",
+            "value": "train_station"
+        },
+        {
+            "label": "도로",
+            "value": "road"
+        },
+        {
+            "label": "도로",
+            "value": "거리 street"
+        },
+        {
+            "label": "도로",
+            "value": "고속도로 highway"
+        },
+        {
+            "label": "도로",
+            "value": "골목 alley"
+        },
+        {
+            "label": "도로",
+            "value": "길 path"
+        },
+        {
+            "label": "도로",
+            "value": "돌산책로 stone_walkway"
+        },
+        {
+            "label": "도로",
+            "value": "보도 sidewalk"
+        },
+        {
+            "label": "도로",
+            "value": "횡단 보도 crosswalk"
+        },
+        {
+            "label": "도로",
+            "value": "흙길 dirt_road"
+        },
+        {
+            "label": "버스",
+            "value": "정류장 bus_stop"
+        },
+        {
+            "label": "비행장",
+            "value": "airfield"
+        },
+        {
+            "label": "비행장",
+            "value": "활주로 runway"
+        },
+        {
+            "label": "운하",
+            "value": "canal"
+        },
+        {
+            "label": "조선소",
+            "value": "shipyard"
+        },
+        {
+            "label": "주유소",
+            "value": "gas_station"
+        },
+        {
+            "label": "차고",
+            "value": "garage"
+        },
+        {
+            "label": "철도",
+            "value": "교차로 railroad_crossing"
+        },
+        {
+            "label": "철도",
+            "value": "선로 railroad_tracks"
+        },
+        {
+            "label": "비행장",
+            "value": "활주로 runway"
+        },
+        {
+            "label": "운하",
+            "value": "canal"
+        },
+        {
+            "label": "조선소",
+            "value": "shipyard"
+        },
+        {
+            "label": "주유소",
+            "value": "gas_station"
+        },
+        {
+            "label": "차고",
+            "value": "garage"
+        },
+        {
+            "label": "철도",
+            "value": "교차로 railroad_crossing"
+        },
+        {
+            "label": "철도",
+            "value": "선로 railroad_tracks"
+        },
+        {
+            "label": "항구",
+            "value": "harbor"
+        },
+        {
+            "label": "공장",
+            "value": "factory"
+        },
+        {
+            "label": "꽃밭",
+            "value": "flower_field"
+        },
+        {
+            "label": "밀밭",
+            "value": "wheat_field"
+        },
+        {
+            "label": "발전소",
+            "value": "powerplant"
+        },
+        {
+            "label": "밭",
+            "value": "field"
+        },
+        {
+            "label": "쌀밭",
+            "value": "rice_paddy"
+        },
+        {
+            "label": "원자력",
+            "value": "발전소 nuclear_powerplant"
+        },
+        {
+            "label": "원자력",
+            "value": "발전소 냉각탑 cooling_tower"
+        },
+        {
+            "label": "정련소",
+            "value": "refinery"
+        },
+        {
+            "label": "창고",
+            "value": "warehouse"
+        },
+        {
+            "label": "강",
+            "value": "river"
+        },
+        {
+            "label": "개울",
+            "value": "stream"
+        },
+        {
+            "label": "낭떠러지",
+            "value": "cliff"
+        },
+        {
+            "label": "대나무",
+            "value": "숲 bamboo_forest"
+        },
+        {
+            "label": "대양",
+            "value": "ocean"
+        },
+        {
+            "label": "동굴",
+            "value": "cave"
+        },
+        {
+            "label": "목초지",
+            "value": "meadow"
+        },
+        {
+            "label": "밀림",
+            "value": "jungle"
+        },
+        {
+            "label": "빙하",
+            "value": "glacier"
+        },
+        {
+            "label": "사막",
+            "value": "desert"
+        },
+        {
+            "label": "사바나",
+            "value": "savannah"
+        },
+        {
+            "label": "산",
+            "value": "mountain"
+        },
+        {
+            "label": "화산",
+            "value": "volcano"
+        },
+        {
+            "label": "섬",
+            "value": "island"
+        },
+        {
+            "label": "섬이",
+            "value": "떠다니다 floating_island"
+        },
+        {
+            "label": "숲",
+            "value": "forest"
+        },
+        {
+            "label": "습지",
+            "value": "wetland"
+        },
+        {
+            "label": "언덕",
+            "value": "hill"
+        },
+        {
+            "label": "연못",
+            "value": "pond"
+        },
+        {
+            "label": "오아시스",
+            "value": "oasis"
+        },
+        {
+            "label": "온천",
+            "value": "geyser"
+        },
+        {
+            "label": "자연",
+            "value": "nature"
+        },
+        {
+            "label": "폭포",
+            "value": "waterfall"
+        },
+        {
+            "label": "해변",
+            "value": "beach"
+        },
+        {
+            "label": "해변가",
+            "value": "shore"
+        },
+        {
+            "label": "해저",
+            "value": "ocean_bottom"
+        },
+        {
+            "label": "협곡",
+            "value": "canyon"
+        },
+        {
+            "label": "호수",
+            "value": "lake"
+        },
+        {
+            "label": "황무지",
+            "value": "wasteland"
+        },
+        {
+            "label": "탑",
+            "value": "pagoda"
+        },
+        {
+            "label": "탑",
+            "value": "tower"
+        },
+        {
+            "label": "거대",
+            "value": "구조물 megastructure"
+        },
+        {
+            "label": "건물",
+            "value": "난간 minaret"
+        },
+        {
+            "label": "경비탑",
+            "value": "guard_tower"
+        },
+        {
+            "label": "군사",
+            "value": "기지 military_base"
+        },
+        {
+            "label": "등대",
+            "value": "lighthouse"
+        },
+        {
+            "label": "마천루",
+            "value": "skyscraper"
+        },
+        {
+            "label": "사원",
+            "value": "mosque"
+        },
+        {
+            "label": "시계탑",
+            "value": "clock_tower"
+        },
+        {
+            "label": "우주",
+            "value": "엘리베이터 space_elevator"
+        },
+        {
+            "label": "종탑",
+            "value": "bell_tower"
+        },
+        {
+            "label": "조종석",
+            "value": "cockpit"
+        },
+        {
+            "label": "기차",
+            "value": "내부 train_interior"
+        },
+        {
+            "label": "버스",
+            "value": "내부 bus_interior"
+        },
+        {
+            "label": "비행기",
+            "value": "내부 airplane_interior"
+        },
+        {
+            "label": "우주선",
+            "value": "내부 spacecraft_interior"
+        },
+        {
+            "label": "차량",
+            "value": "내부 car_interior"
+        },
+        {
+            "label": "탑승물",
+            "value": "내부 vehicle_interior"
+        },
+        {
+            "label": "탱크",
+            "value": "내부 tank_interior"
+        }
+    ]
+}

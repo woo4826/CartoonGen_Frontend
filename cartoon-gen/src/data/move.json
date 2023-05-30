@@ -1,0 +1,1720 @@
+{
+    "list": [
+        {
+            "label": "걷다",
+            "value": "walking"
+        },
+        {
+            "label": "균형잡다",
+            "value": "balancing"
+        },
+        {
+            "label": "기대다",
+            "value": "reclining"
+        },
+        {
+            "label": "껴안다",
+            "value": "hug"
+        },
+        {
+            "label": "네 발로 걷다",
+            "value": "crawling"
+        },
+        {
+            "label": "네발",
+            "value": "all_fours"
+        },
+        {
+            "label": "네발로 복종하다",
+            "value": "prostration"
+        },
+        {
+            "label": "네발로 엉덩이를 들다",
+            "value": "top-down_bottom_up"
+        },
+        {
+            "label": "달리다",
+            "value": "running"
+        },
+        {
+            "label": "물구나무서기",
+            "value": "handstand"
+        },
+        {
+            "label": "벽을 걷다",
+            "value": "wallwalking"
+        },
+        {
+            "label": "상하 반전",
+            "value": "upside_down"
+        },
+        {
+            "label": "서 있다",
+            "value": "standing"
+        },
+        {
+            "label": "서(한쪽) 있다",
+            "value": "standing_on_one_leg"
+        },
+        {
+            "label": "슈퍼 히어로 랜딩",
+            "value": "superhero_landing"
+        },
+        {
+            "label": "스트레칭",
+            "value": "stretching"
+        },
+        {
+            "label": "얼굴로 떨어지다",
+            "value": "faceplant"
+        },
+        {
+            "label": "엉덩이를 내밀다",
+            "value": "contrapposto"
+        },
+        {
+            "label": "온몸이 묶이다",
+            "value": "crucifixion"
+        },
+        {
+            "label": "점프하다",
+            "value": "jumping"
+        },
+        {
+            "label": "눕다",
+            "value": "lying"
+        },
+        {
+            "label": "누워서 꼬다",
+            "value": "crossed_legs"
+        },
+        {
+            "label": "웅크려 눕다",
+            "value": "fetal_position"
+        },
+        {
+            "label": "뒤로 눕다",
+            "value": "on_back"
+        },
+        {
+            "label": "옆을 눕다",
+            "value": "on_side"
+        },
+        {
+            "label": "엎드리다",
+            "value": "on_stomach"
+        },
+        {
+            "label": "앉다",
+            "value": "sitting"
+        },
+        {
+            "label": "나비처럼 앉다",
+            "value": "butterfly_sitting"
+        },
+        {
+            "label": "일본식으로 앉다",
+            "value": "seiza"
+        },
+        {
+            "label": "무릎에 앉다",
+            "value": "sitting_on_lap"
+        },
+        {
+            "label": "사람 위에 앉다",
+            "value": "sitting_on_person"
+        },
+        {
+            "label": "쪼그려 앉다",
+            "value": "squatting"
+        },
+        {
+            "label": "양쪽으로 앉다",
+            "value": "wariza"
+        },
+        {
+            "label": "한쪽으로 앉다",
+            "value": "yokozuwari"
+        },
+        {
+            "label": "올리다",
+            "value": "straddling"
+        },
+        {
+            "label": "허벅지에 올리다",
+            "value": "thigh_straddling"
+        },
+        {
+            "label": "마주보고 올리다",
+            "value": "upright_straddle"
+        },
+        {
+            "label": "몸을 기울이다",
+            "value": "Torso_inclination"
+        },
+        {
+            "label": "구부정하다",
+            "value": "slouching"
+        },
+        {
+            "label": "뒤틀리다",
+            "value": "twisted_torso"
+        },
+        {
+            "label": "등이",
+            "value": "휘었다arched_back"
+        },
+        {
+            "label": "등이 구부렸다",
+            "value": "bent_over"
+        },
+        {
+            "label": "뒤로 기대다",
+            "value": "leaning_back"
+        },
+        {
+            "label": "앞으로 기대다",
+            "value": "leaning_forward"
+        },
+        {
+            "label": "팔을 뒤로 묶다",
+            "value": "box_tie"
+        },
+        {
+            "label": "팔을 묶다",
+            "value": "bound_arms"
+        },
+        {
+            "label": "발을 묶다",
+            "value": "bound_feet"
+        },
+        {
+            "label": "다리를 묶다",
+            "value": "bound_legs"
+        },
+        {
+            "label": "종아리를 묶다",
+            "value": "bound_calves"
+        },
+        {
+            "label": "무릎을 묶다",
+            "value": "bound_knees"
+        },
+        {
+            "label": "허벅지를 묶다",
+            "value": "bound_thighs"
+        },
+        {
+            "label": "몸을 묶다",
+            "value": "bound_torso"
+        },
+        {
+            "label": "손목을 묶다",
+            "value": "bound_wrists"
+        },
+        {
+            "label": "개구리처럼 묶다",
+            "value": "frogtie"
+        },
+        {
+            "label": "팔과 다리를 뒤로 묶다",
+            "value": "hogtie"
+        },
+        {
+            "label": "팔을 묶어 떨어뜨리다",
+            "value": "separated_arms"
+        },
+        {
+            "label": "다리를 묶어 떨어뜨리다",
+            "value": "separated_legs"
+        },
+        {
+            "label": "손목을 묶어 떨어뜨리다",
+            "value": "separated_wrists"
+        },
+        {
+            "label": "사람을 묶어 장식한다",
+            "value": "strappado"
+        },
+        {
+            "label": "사람을 묶어 매달았다",
+            "value": "suspension"
+        },
+        {
+            "label": "전투 자세",
+            "value": "fighting_stance"
+        },
+        {
+            "label": "발도술",
+            "value": "battoujutsu_stance"
+        },
+        {
+            "label": "전갈 자세",
+            "value": "full_scorpion"
+        },
+        {
+            "label": "몸을 기대다",
+            "value": "leaning"
+        },
+        {
+            "label": "몸을 앞으로 기대다",
+            "value": "leaning_forward"
+        },
+        {
+            "label": "몸을 뒤로 기대다",
+            "value": "leaningback"
+        },
+        {
+            "label": "몸을 사람에 기대다",
+            "value": "leaning_on_person"
+        },
+        {
+            "label": "몸을 물건에 기대다",
+            "value": "leaning_on_object"
+        },
+        {
+            "label": "몸을 물건(벽)에 기대다",
+            "value": "against_wall"
+        },
+        {
+            "label": "몸을 물건(나무)에 기대다",
+            "value": "against_tree"
+        },
+        {
+            "label": "몸을 물건(난간)에 기대다",
+            "value": "against_glass"
+        },
+        {
+            "label": "몸을 물건(오토바이)에 기대다",
+            "value": "against_fence_railing"
+        },
+        {
+            "label": "몸을 물건(차량)에 기대다",
+            "value": "leaning_against_motorcycle"
+        },
+        {
+            "label": "몸을 옆으로 기대다",
+            "value": "leaning_against_vehicle"
+        },
+        {
+            "label": "2명 이상",
+            "value": "Posture_of_at_least_two_characters"
+        },
+        {
+            "label": "껴안다",
+            "value": "Hugging"
+        },
+        {
+            "label": "눈을 맞추다 eye",
+            "value": "contact"
+        },
+        {
+            "label": "다리를 잡는다 leg",
+            "value": "lock"
+        },
+        {
+            "label": "등을 맞대다",
+            "value": "back-to-back"
+        },
+        {
+            "label": "뺨을 맞대다",
+            "value": "cheek-to-cheek"
+        },
+        {
+            "label": "손을 잡는다",
+            "value": "holding-hands"
+        },
+        {
+            "label": "머리를 맞대다",
+            "value": "heads-together"
+        },
+        {
+            "label": "이마를 맞대다",
+            "value": "forehead-to-ones-forehead"
+        },
+        {
+            "label": "하나 이상의 인물",
+            "value": "Hugging_doable_by_one_or_more_characters"
+        },
+        {
+            "label": "꼬리로 껴안다",
+            "value": "tail_hug"
+        },
+        {
+            "label": "날개로 껴안다",
+            "value": "wing_hug"
+        },
+        {
+            "label": "다리를 껴안다",
+            "value": "hugging_own_legs"
+        },
+        {
+            "label": "물건을 껴안다",
+            "value": "object_hug"
+        },
+        {
+            "label": "2명 이상의 포옹",
+            "value": "Hugging_doable_by_two_or_more_characters"
+        },
+        {
+            "label": "뒤에서 껴안다",
+            "value": "hug_from_behind"
+        },
+        {
+            "label": "팔로 껴안다",
+            "value": "arm_hug"
+        },
+        {
+            "label": "허리를 껴안다",
+            "value": "waist_hug"
+        },
+        {
+            "label": "누군가를 안다",
+            "value": "Carrying_someone"
+        },
+        {
+            "label": "가슴을 들다",
+            "value": "carried_breast_rest"
+        },
+        {
+            "label": "겨드랑이에 들다",
+            "value": "carrying_under_arm"
+        },
+        {
+            "label": "공주님 안기",
+            "value": "princess_carry"
+        },
+        {
+            "label": "소방관처럼 들다",
+            "value": "fireman_s_carry"
+        },
+        {
+            "label": "아기를 안다",
+            "value": "baby_carry"
+        },
+        {
+            "label": "아이를 들다",
+            "value": "child_carry"
+        },
+        {
+            "label": "어깨 위로 들다",
+            "value": "carrying_over_shoulder"
+        },
+        {
+            "label": "어깨에 서다",
+            "value": "standing_on_shoulder"
+        },
+        {
+            "label": "어깨에 안기",
+            "value": "shoulder_carry"
+        },
+        {
+            "label": "어깨에 앉기",
+            "value": "sitting_on_shoulder"
+        },
+        {
+            "label": "엎고 나르다",
+            "value": "piggyback"
+        },
+        {
+            "label": "올린다",
+            "value": "carrying"
+        },
+        {
+            "label": "배꼽이 없다",
+            "value": "no_navel"
+        },
+        {
+            "label": "배꼽을 덮다",
+            "value": "covered_navel"
+        },
+        {
+            "label": "배꼽을 보인다",
+            "value": "navel_cutout"
+        },
+        {
+            "label": "배꼽을 펴다",
+            "value": "spread_navel"
+        },
+        {
+            "label": "기쁜 표정",
+            "value": "Happy_face"
+        },
+        {
+            "label": "놀란 표정",
+            "value": "surprised_face"
+        },
+        {
+            "label": "들뜬 표정",
+            "value": "Giddy_face"
+        },
+        {
+            "label": "웃는 표정",
+            "value": "smiling_face"
+        },
+        {
+            "label": "가벼운 표정",
+            "value": "Light_face"
+        },
+        {
+            "label": "감동한 표정",
+            "value": "touched_face"
+        },
+        {
+            "label": "느긋한 표정",
+            "value": "easygoing_face"
+        },
+        {
+            "label": "부러운 표정",
+            "value": "envious_face"
+        },
+        {
+            "label": "상냥한 표정",
+            "value": "gentle_face"
+        },
+        {
+            "label": "신성한 표정",
+            "value": "sacred_face"
+        },
+        {
+            "label": "즐거운 표정",
+            "value": "joyful_face"
+        },
+        {
+            "label": "질겁한 표정",
+            "value": "frightened_face"
+        },
+        {
+            "label": "해맑은 표정",
+            "value": "bright_face"
+        },
+        {
+            "label": "행복한 표정",
+            "value": "Happy_face"
+        },
+        {
+            "label": "희망한 표정",
+            "value": "desired_face"
+        },
+        {
+            "label": "부끄러운 표정",
+            "value": "Shameful_face"
+        },
+        {
+            "label": "자비로운 표정",
+            "value": "benevolent_face"
+        },
+        {
+            "label": "잘난 척한 표정",
+            "value": "pretentious_face"
+        },
+        {
+            "label": "간절한 표정",
+            "value": "earnest_face"
+        },
+        {
+            "label": "걱정한 표정",
+            "value": "worried_face"
+        },
+        {
+            "label": "경멸한 표정",
+            "value": "scornful_face"
+        },
+        {
+            "label": "경멸한 표정",
+            "value": "scornful_face"
+        },
+        {
+            "label": "괴로운 표정",
+            "value": "distressed_face"
+        },
+        {
+            "label": "괴로운 표정",
+            "value": "distressed_face"
+        },
+        {
+            "label": "단호한 표정",
+            "value": "determined_face"
+        },
+        {
+            "label": "당황한 표정",
+            "value": "Embarrassed_face"
+        },
+        {
+            "label": "무서운 표정",
+            "value": "Scary_face"
+        },
+        {
+            "label": "무표정한 표정",
+            "value": "expression_face"
+        },
+        {
+            "label": "미친 표정",
+            "value": "Crazy_face"
+        },
+        {
+            "label": "분노한 표정",
+            "value": "outraged_face"
+        },
+        {
+            "label": "불안한 표정",
+            "value": "Unstable_face"
+        },
+        {
+            "label": "불행한 표정",
+            "value": "unfortunate_face"
+        },
+        {
+            "label": "붉히다 표정 turn",
+            "value": "red_face"
+        },
+        {
+            "label": "비웃는 표정",
+            "value": "scoffing_face"
+        },
+        {
+            "label": "비참한 표정",
+            "value": "miserable_face"
+        },
+        {
+            "label": "사악한 표정",
+            "value": "evil_face"
+        },
+        {
+            "label": "생각한 표정",
+            "value": "idea_face"
+        },
+        {
+            "label": "속상한 표정",
+            "value": "Upset_face"
+        },
+        {
+            "label": "슬픈 표정",
+            "value": "Sad_face"
+        },
+        {
+            "label": "실망한 표정",
+            "value": "Disappointed_face"
+        },
+        {
+            "label": "심각한 표정",
+            "value": "Serious_face"
+        },
+        {
+            "label": "암울한 표정",
+            "value": "Gloomy_face"
+        },
+        {
+            "label": "애달픈 표정",
+            "value": "sorrowful_face"
+        },
+        {
+            "label": "억눌린 표정",
+            "value": "suppressed_face"
+        },
+        {
+            "label": "억울한 표정",
+            "value": "unfair_face"
+        },
+        {
+            "label": "억지로 표정 With",
+            "value": "distaste_face"
+        },
+        {
+            "label": "오만한 표정",
+            "value": "arrogant_face"
+        },
+        {
+            "label": "외로운 표정",
+            "value": "Lonely_face"
+        },
+        {
+            "label": "우는 표정",
+            "value": "crying_face"
+        },
+        {
+            "label": "우울한 표정",
+            "value": "Gloomy_face"
+        },
+        {
+            "label": "울먹이는 표정",
+            "value": "tearful_face"
+        },
+        {
+            "label": "의심한 표정",
+            "value": "suspicious_face"
+        },
+        {
+            "label": "절망한 표정",
+            "value": "despair_face"
+        },
+        {
+            "label": "졸린 표정",
+            "value": "Sleepy_face"
+        },
+        {
+            "label": "좌절한 표정",
+            "value": "frustrated_face"
+        },
+        {
+            "label": "지루한 표정",
+            "value": "Boring_face"
+        },
+        {
+            "label": "짜증난 표정",
+            "value": "irritating_face"
+        },
+        {
+            "label": "창백한 표정",
+            "value": "pale_face"
+        },
+        {
+            "label": "초조한 표정",
+            "value": "Nervous_face"
+        },
+        {
+            "label": "피곤한 표정",
+            "value": "Tired_face"
+        },
+        {
+            "label": "화난 표정",
+            "value": "Angry_face"
+        },
+        {
+            "label": "한심한 표정",
+            "value": "pathetic_face"
+        },
+        {
+            "label": "한탄한 표정",
+            "value": "lamented_face"
+        },
+        {
+            "label": "혼란한 표정",
+            "value": "confused_face"
+        },
+        {
+            "label": "매혹한 표정",
+            "value": "charmed_face"
+        },
+        {
+            "label": "유혹한 표정",
+            "value": "seduced_face"
+        },
+        {
+            "label": "취한 표정",
+            "value": "drunk_face"
+        },
+        {
+            "label": "황홀한 표정",
+            "value": "ecstasy_face"
+        },
+        {
+            "label": "흥분한 표정",
+            "value": "aroused_face"
+        },
+        {
+            "label": "화장하다",
+            "value": "applying_makeup"
+        },
+        {
+            "label": "눈꺼풀을 화장하다",
+            "value": "eyeshadow"
+        },
+        {
+            "label": "눈꼬리를 화장하다",
+            "value": "eyeliner"
+        },
+        {
+            "label": "속눈썹을 화장하다",
+            "value": "mascara"
+        },
+        {
+            "label": "뺨(볼)을 화장하다",
+            "value": "rouge makeup"
+        },
+        {
+            "label": "입술을 화장하다",
+            "value": "lipstick"
+        },
+        {
+            "label": "입술을 광택나게 화장하다",
+            "value": "lipgloss"
+        },
+        {
+            "label": "입술을 부드럽게 화장하다",
+            "value": "lip_balm"
+        },
+        {
+            "label": "얼굴에 낙서하다",
+            "value": "facepaint"
+        },
+        {
+            "label": "얼굴에 페인트가 튀다",
+            "value": "paint splatter one's face"
+        },
+        {
+            "label": "눈물을 흘리다",
+            "value": "crying"
+        },
+        {
+            "label": "눈물을 흘리며 흐느끼다",
+            "value": "sobbing"
+        },
+        {
+            "label": "입으로 먹다",
+            "value": "eating"
+        },
+        {
+            "label": "입으로 씹다",
+            "value": "chewing"
+        },
+        {
+            "label": "입으로 삼키다",
+            "value": "swallowing"
+        },
+        {
+            "label": "입으로 시식하다",
+            "value": "tasting"
+        },
+        {
+            "label": "입으로 기침하다",
+            "value": "coughing"
+        },
+        {
+            "label": "입으로 거품을 불다",
+            "value": "bubble_blowing"
+        },
+        {
+            "label": "입에서 침을 흘리다",
+            "value": "drooling"
+        },
+        {
+            "label": "입으로 숨쉬다",
+            "value": "breathing"
+        },
+        {
+            "label": "입으로 거칠게 숨쉬다",
+            "value": "heavy_breathing_(panting)"
+        },
+        {
+            "label": "입을 다물다",
+            "value": "Closed_mouth"
+        },
+        {
+            "label": "입술을 핥다",
+            "value": "Licking_lips"
+        },
+        {
+            "label": "입술을 깨물다",
+            "value": "Lip_biting"
+        },
+        {
+            "label": "입술을 내밀다",
+            "value": "Pursed_lips"
+        },
+        {
+            "label": "입술을 벌리다",
+            "value": "Open_mouth"
+        },
+        {
+            "label": "입술을 벌리다",
+            "value": "Spread_lips"
+        },
+        {
+            "label": "입술을 오므리다",
+            "value": "Puckered_lips"
+        },
+        {
+            "label": "입술이 갈라지다",
+            "value": "Parted_lips"
+        },
+        {
+            "label": "입으로 피를 빨다",
+            "value": "blood_sucking"
+        },
+        {
+            "label": "입으로 아이스크림을 빨다",
+            "value": "popsicle_in_mouth"
+        },
+        {
+            "label": "이빨로 깨물다",
+            "value": "biting"
+        },
+        {
+            "label": "이빨로 귀를 깨물다",
+            "value": "ear_biting"
+        },
+        {
+            "label": "이빨로 뺨을 깨물다",
+            "value": "cheek_biting"
+        },
+        {
+            "label": "이빨로 머리를 깨물다",
+            "value": "head_biting"
+        },
+        {
+            "label": "이빨로 손을 깨물다",
+            "value": "hand_biting"
+        },
+        {
+            "label": "이빨로 손톱을 깨물다",
+            "value": "nail_biting"
+        },
+        {
+            "label": "이빨로 손가락을 깨물다",
+            "value": "finger_biting"
+        },
+        {
+            "label": "이빨로 엄지를 깨물다",
+            "value": "thumb_biting"
+        },
+        {
+            "label": "이빨로 장갑을 깨물다",
+            "value": "glove_biting"
+        },
+        {
+            "label": "혀를 잡다",
+            "value": "tongue_grab"
+        },
+        {
+            "label": "혀를 내밀다",
+            "value": "tongue_out"
+        },
+        {
+            "label": "혀를 깨물다",
+            "value": "biting_tongue"
+        },
+        {
+            "label": "혀로 핥아먹다",
+            "value": "licking_stomach"
+        },
+        {
+            "label": "혀로 핥다",
+            "value": "licking"
+        },
+        {
+            "label": "귀를 핥다",
+            "value": "licking_ear"
+        },
+        {
+            "label": "목을 핥다",
+            "value": "licking_neck"
+        },
+        {
+            "label": "뺨을 핥다",
+            "value": "licking_cheek"
+        },
+        {
+            "label": "입술을 핥다",
+            "value": "licking_lips"
+        },
+        {
+            "label": "얼굴을 핥다",
+            "value": "licking_face"
+        },
+        {
+            "label": "손을 핥다",
+            "value": "licking_hand"
+        },
+        {
+            "label": "발을 핥다",
+            "value": "licking_foot"
+        },
+        {
+            "label": "팔을 핥다",
+            "value": "licking_arm"
+        },
+        {
+            "label": "다리를 핥다",
+            "value": "licking_leg"
+        },
+        {
+            "label": "손가락을 핥다",
+            "value": "licking_finger"
+        },
+        {
+            "label": "발가락을 핥다",
+            "value": "licking_toe"
+        },
+        {
+            "label": "이발하다",
+            "value": "hairdressing"
+        },
+        {
+            "label": "머리를 빗다",
+            "value": "brushing_hair"
+        },
+        {
+            "label": "머리를 묶다",
+            "value": "hair_tucking"
+        },
+        {
+            "label": "머리를 돌리다",
+            "value": "hair_twirling"
+        },
+        {
+            "label": "목을 물어뜯다",
+            "value": "neck_biting"
+        },
+        {
+            "label": "목을 빨다",
+            "value": "necking"
+        },
+        {
+            "label": "목에 키스하다",
+            "value": "kissing_neck"
+        },
+        {
+            "label": "목에 팔을 감다",
+            "value": "arm_around_neck"
+        },
+        {
+            "label": "목에 두 팔을 감다",
+            "value": "arms_around_neck"
+        },
+        {
+            "label": "내 목에 손을 대다",
+            "value": "hand_on_own_neck"
+        },
+        {
+            "label": "남의 목에 손을 대다",
+            "value": "hand_on_another_s_neck"
+        },
+        {
+            "label": "곁눈질하다",
+            "value": "squinting"
+        },
+        {
+            "label": "눈을 가늘게 뜰다",
+            "value": "glaring"
+        },
+        {
+            "label": "눈 위를 손으로 가렸다",
+            "value": "shading_eyes"
+        },
+        {
+            "label": "눈을 반쯤 감다",
+            "value": "half_closed_eyes"
+        },
+        {
+            "label": "귀를 덮다",
+            "value": "covering_ears"
+        },
+        {
+            "label": "귀를 물다",
+            "value": "ear_biting"
+        },
+        {
+            "label": "귀를 잡다",
+            "value": "ear_grab"
+        },
+        {
+            "label": "귀를 당긴다",
+            "value": "ear_pull"
+        },
+        {
+            "label": "귀를 흔들다",
+            "value": "ear_wiggle"
+        },
+        {
+            "label": "귀를 만진다",
+            "value": "hand_on_ear"
+        },
+        {
+            "label": "귀를 잡는다",
+            "value": "holding_ears"
+        },
+        {
+            "label": "냄새를 맡다",
+            "value": "smelling"
+        },
+        {
+            "label": "손을 뻗다",
+            "value": "raised_fist"
+        },
+        {
+            "label": "손을 올리다(침묵)",
+            "value": "shushing"
+        },
+        {
+            "label": "손을 흔들다",
+            "value": "waving"
+        },
+        {
+            "label": "손을 안절부절하다",
+            "value": "fidgeting"
+        },
+        {
+            "label": "손을 맞물리다",
+            "value": "interlocked_fingers"
+        },
+        {
+            "label": "손을 얽는다",
+            "value": "own_hands_clasped"
+        },
+        {
+            "label": "손에 주먹을",
+            "value": "fist_in_hand"
+        },
+        {
+            "label": "손을 뻗다",
+            "value": "carry_me"
+        },
+        {
+            "label": "손을 움켜쥔다",
+            "value": "clenched_hands"
+        },
+        {
+            "label": "손을 겹치다",
+            "value": "own_hands_together"
+        },
+        {
+            "label": "손을 닫다",
+            "value": "Whole_closed_hand"
+        },
+        {
+            "label": "손을 쥐다",
+            "value": "clenched_hand"
+        },
+        {
+            "label": "손짓하다",
+            "value": "beckoning"
+        },
+        {
+            "label": "손짓하며 도발하다",
+            "value": "come_at_me_bro"
+        },
+        {
+            "label": "손짓하며 유혹하다",
+            "value": "come_hither"
+        },
+        {
+            "label": "손짓을 아래로",
+            "value": "outstretched_hand"
+        },
+        {
+            "label": "손짓을 화면 밖으로",
+            "value": "reaching_out"
+        },
+        {
+            "label": "양손에 무기를 들다",
+            "value": "dual_wielding"
+        },
+        {
+            "label": "양손에 세 개를 휘두르다",
+            "value": "triple_wielding"
+        },
+        {
+            "label": "양손에 네 개를 휘두르다",
+            "value": "quadruple_wielding"
+        },
+        {
+            "label": "손으로 경례한다",
+            "value": "salute"
+        },
+        {
+            "label": "손으로 담는다",
+            "value": "cupping_hands"
+        },
+        {
+            "label": "손으로 강조한다",
+            "value": "air_quotes"
+        },
+        {
+            "label": "손으로 누르다",
+            "value": "noogie"
+        },
+        {
+            "label": "손으로 모자를 잡다",
+            "value": "hat_tip"
+        },
+        {
+            "label": "손으로 세우다",
+            "value": "steepled_fingers"
+        },
+        {
+            "label": "손으로 약속하다",
+            "value": "pinky_swear"
+        },
+        {
+            "label": "손으로 인사하다",
+            "value": "palm_fist_greeting"
+        },
+        {
+            "label": "손으로 주먹쥐다",
+            "value": "fig_sign"
+        },
+        {
+            "label": "손으로 주먹쥐다",
+            "value": "power_fist"
+        },
+        {
+            "label": "손으로 주먹을 부딪힌다",
+            "value": "fist_bump"
+        },
+        {
+            "label": "손으로 하이 파이브",
+            "value": "high_five"
+        },
+        {
+            "label": "손으로 숨기다",
+            "value": "covering"
+        },
+        {
+            "label": "손으로 귀를 숨기다",
+            "value": "covering_ears"
+        },
+        {
+            "label": "손으로 눈을 숨기다",
+            "value": "covering_eyes"
+        },
+        {
+            "label": "손으로 입을 가리다",
+            "value": "covering_mouth"
+        },
+        {
+            "label": "손으로 얼굴을 숨기다",
+            "value": "overing_face"
+        },
+        {
+            "label": "손으로 측정하다",
+            "value": "measuring"
+        },
+        {
+            "label": "손으로 가슴을 측정하다",
+            "value": "bust_measuring"
+        },
+        {
+            "label": "손으로 자지를 측정하다",
+            "value": "penis_measuring"
+        },
+        {
+            "label": "손으로 허리를 측정하다",
+            "value": "waist_measuring"
+        },
+        {
+            "label": "손으로 꼬집다",
+            "value": "pinching"
+        },
+        {
+            "label": "손으로 배를 꼬집다",
+            "value": "belly_grab"
+        },
+        {
+            "label": "손으로 뺨을 꼬집다",
+            "value": "cheek_pinching"
+        },
+        {
+            "label": "손으로 간지럽히다",
+            "value": "tickling"
+        },
+        {
+            "label": "손으로 간지럽히다",
+            "value": "foot_tickling"
+        },
+        {
+            "label": "손으로 간지럽혀 고문하다",
+            "value": "tickle_torture"
+        },
+        {
+            "label": "손으로 들어 올리다",
+            "value": "lifting"
+        },
+        {
+            "label": "손으로 자기 옷을 들다",
+            "value": "lifted_by_self"
+        },
+        {
+            "label": "손으로 다른 사람의 옷을 들다",
+            "value": "lifted_by_another"
+        },
+        {
+            "label": "손으로 다리를 들어올리다",
+            "value": "leg_lift"
+        },
+        {
+            "label": "손으로 사람을 들어올리다",
+            "value": "lifting_person"
+        },
+        {
+            "label": "손으로 이불을 들어올리다",
+            "value": "lifting_covers"
+        },
+        {
+            "label": "손으로 부채질하다",
+            "value": "fainting"
+        },
+        {
+            "label": "손으로 부채질하며 말하다",
+            "value": "falling"
+        },
+        {
+            "label": "손으로 부채질해 얼굴을 식히다",
+            "value": "fanning_face"
+        },
+        {
+            "label": "손으로 부채질해 가랑이를 식히다",
+            "value": "fanning_crotch"
+        },
+        {
+            "label": "손가락을 교차한다",
+            "value": "crossed_fingers"
+        },
+        {
+            "label": "손가락을 벌리다",
+            "value": "spread_fingers"
+        },
+        {
+            "label": "손가락을 뻗다",
+            "value": "reaching"
+        },
+        {
+            "label": "손가락을 입술에 얹다",
+            "value": "shushing"
+        },
+        {
+            "label": "손가락을 흔들다",
+            "value": "waving"
+        },
+        {
+            "label": "손가락으로 가리키다",
+            "value": "pointing"
+        },
+        {
+            "label": "손가락으로 가리키다",
+            "value": "pointing_up"
+        },
+        {
+            "label": "손가락으로 가리키다",
+            "value": "pointing_at_self"
+        },
+        {
+            "label": "손가락으로 뷰어를 가리키다",
+            "value": "pointing_at_viewer"
+        },
+        {
+            "label": "손가락으로 아래를 가리키다",
+            "value": "pointing_down"
+        },
+        {
+            "label": "손가락으로 앞을 가리키다",
+            "value": "pointing_forward"
+        },
+        {
+            "label": "손가락으로 높이 가리키다",
+            "value": "saturday_night_fever"
+        },
+        {
+            "label": "손가락으로 경례하다",
+            "value": "salute"
+        },
+        {
+            "label": "손가락으로 눈을 당긴다",
+            "value": "akanbe"
+        },
+        {
+            "label": "손가락으로 똑바로 경례",
+            "value": "straight_arm_salute"
+        },
+        {
+            "label": "손가락으로 목을 긋다",
+            "value": "slit_throat (gesture)"
+        },
+        {
+            "label": "손가락으로 세다",
+            "value": "finger_counting"
+        },
+        {
+            "label": "손가락으로 손짓하다",
+            "value": "beckoning"
+        },
+        {
+            "label": "손가락으로 얼굴을",
+            "value": "facepalm"
+        },
+        {
+            "label": "손가락으로 열다",
+            "value": "open_hand"
+        },
+        {
+            "label": "손가락으로 인사하다",
+            "value": "ohikaenasutte"
+        },
+        {
+            "label": "손가락 하나를",
+            "value": "One_open_finger"
+        },
+        {
+            "label": "새끼 손가락",
+            "value": "pinky_out"
+        },
+        {
+            "label": "가운데 손가락",
+            "value": "middle_finger"
+        },
+        {
+            "label": "검지 손가락 올리다:",
+            "value": "index_finger_raised"
+        },
+        {
+            "label": "엄지 손가락을 내리다",
+            "value": "thumbs_down"
+        },
+        {
+            "label": "엄지 손가락을 들다",
+            "value": "thumbs_up"
+        },
+        {
+            "label": "손가락 두 개를",
+            "value": "Two_open_fingers"
+        },
+        {
+            "label": "엄지와 새끼",
+            "value": "shaka_sign"
+        },
+        {
+            "label": "V 사인",
+            "value": "v_sign"
+        },
+        {
+            "label": "안쪽 V 사인",
+            "value": "inward_v"
+        },
+        {
+            "label": "눈에 V 사인",
+            "value": "v_over_eye"
+        },
+        {
+            "label": "입에 V 사인",
+            "value": "v_over_mouth"
+        },
+        {
+            "label": "두 손가락 경례",
+            "value": "two_finger_salute"
+        },
+        {
+            "label": "여우 그림자",
+            "value": "fox_shadow_puppet"
+        },
+        {
+            "label": "손가락 총",
+            "value": "finger_gun"
+        },
+        {
+            "label": "손가락 하트",
+            "value": "finger_heart"
+        },
+        {
+            "label": "손가락 세 개를",
+            "value": "Three_open_fingers"
+        },
+        {
+            "label": "검지, 중지, 약지",
+            "value": "middle_w"
+        },
+        {
+            "label": "OK 사인",
+            "value": "ok_sign"
+        },
+        {
+            "label": "돈 사인",
+            "value": "money_gesture"
+        },
+        {
+            "label": "W 사인",
+            "value": "w_sign"
+        },
+        {
+            "label": "손가락 전체",
+            "value": "Whole_open_hand"
+        },
+        {
+            "label": "검지와 중지, 약지와 새끼",
+            "value": "vulcan_salute"
+        },
+        {
+            "label": "동물 포즈",
+            "value": "animal_pose"
+        },
+        {
+            "label": "고양이 포즈",
+            "value": "paw_pose"
+        },
+        {
+            "label": "발톱 포즈",
+            "value": "paw_pose"
+        },
+        {
+            "label": "뿔 포즈",
+            "value": "horns_pose"
+        },
+        {
+            "label": "토끼 포즈",
+            "value": "bunny_pose"
+        },
+        {
+            "label": "할퀴는 포즈",
+            "value": "claw_pose"
+        },
+        {
+            "label": "포즈",
+            "value": "Poses"
+        },
+        {
+            "label": "겐도 포즈",
+            "value": "gendou_pose"
+        },
+        {
+            "label": "궁수 포즈",
+            "value": "archer_pose"
+        },
+        {
+            "label": "그림자 연극",
+            "value": "shadow_puppet"
+        },
+        {
+            "label": "대칭 손 폴즈",
+            "value": "symmetrical_hand_pose"
+        },
+        {
+            "label": "더블 V 사인",
+            "value": "double_v"
+        },
+        {
+            "label": "도짓코 포즈",
+            "value": "dojikko_pose"
+        },
+        {
+            "label": "사진 프레임",
+            "value": "finger_frame"
+        },
+        {
+            "label": "세일러문 포즈",
+            "value": "tsuki_ni_kawatte_oshioki_yo"
+        },
+        {
+            "label": "승리 포즈",
+            "value": "victory_pose"
+        },
+        {
+            "label": "악당",
+            "value": "zombie_pose"
+        },
+        {
+            "label": "악당 포즈",
+            "value": "villain_pose"
+        },
+        {
+            "label": "안경 포즈",
+            "value": "hand_glasses"
+        },
+        {
+            "label": "죠죠 포즈",
+            "value": "jojo_pose"
+        },
+        {
+            "label": "하트",
+            "value": "heart_hands"
+        },
+        {
+            "label": "하트(2명)",
+            "value": "heart_hands_duo"
+        },
+        {
+            "label": "하트(3명)",
+            "value": "heart_hands_trio"
+        },
+        {
+            "label": "발 자세",
+            "value": "Foot_position"
+        },
+        {
+            "label": "발을 위쪽으로 구부리다",
+            "value": "dorsiflexion"
+        },
+        {
+            "label": "발목을 겹치다",
+            "value": "crossed_ankles"
+        },
+        {
+            "label": "발바닥이 아래로 향하다",
+            "value": "plantar_flexion"
+        },
+        {
+            "label": "발가락을 들고 균형잡다",
+            "value": "tiptoes"
+        },
+        {
+            "label": "발가락을 들고 키스한다",
+            "value": "tiptoe_kiss"
+        },
+        {
+            "label": "다리 자세",
+            "value": "Leg_location"
+        },
+        {
+            "label": "다리를 들다",
+            "value": "leg_lift"
+        },
+        {
+            "label": "다리를 잡는다",
+            "value": "folded"
+        },
+        {
+            "label": "다리를 벌리다",
+            "value": "spread_legs"
+        },
+        {
+            "label": "다리를 서서 꼬다",
+            "value": "watson_cross"
+        },
+        {
+            "label": "다리를 꼬다",
+            "value": "crossed_legs"
+        },
+        {
+            "label": "다리를 앉아서 껴안다",
+            "value": "figure_four_sitting"
+        },
+        {
+            "label": "다리를 껴안다",
+            "value": "hugging_own_legs"
+        },
+        {
+            "label": "다리를 길게 뻗다",
+            "value": "outstretched_leg"
+        },
+        {
+            "label": "다리를 뒤로 뻗다",
+            "value": "pigeon_pose"
+        },
+        {
+            "label": "다리를 서서 뻗다",
+            "value": "split"
+        },
+        {
+            "label": "다리를 서서 뻗다",
+            "value": "standing_split"
+        },
+        {
+            "label": "다리로 차다",
+            "value": "kicking"
+        },
+        {
+            "label": "다리로 가랑이를 차다",
+            "value": "crotch_kick"
+        },
+        {
+            "label": "다리를 모아서 차다",
+            "value": "drop_kick"
+        },
+        {
+            "label": "다리로 날아서 차다",
+            "value": "flying_kick"
+        },
+        {
+            "label": "다리를 1자로 차다",
+            "value": "axe_kick"
+        },
+        {
+            "label": "다리로 허리보다 높이 차다",
+            "value": "drop_kick"
+        },
+        {
+            "label": "무릎 자세",
+            "value": "Knee_location"
+        },
+        {
+            "label": "무릎(한쪽)을 꿇다 one",
+            "value": "knee"
+        },
+        {
+            "label": "무릎(양쪽)을 꿇다",
+            "value": "kneeling"
+        },
+        {
+            "label": "무릎을 모으고 발을 벌리다",
+            "value": "knees_together_feet_apart"
+        },
+        {
+            "label": "무릎을 벌리고 발을 발리다",
+            "value": "knees_apart_feet_together"
+        },
+        {
+            "label": "날개로 가리다",
+            "value": "Wing_censor"
+        },
+        {
+            "label": "날개로 안아",
+            "value": "Wing_hug"
+        },
+        {
+            "label": "날개를 애무하다",
+            "value": "Wingjob"
+        },
+        {
+            "label": "날개를 우산처럼 펼치다",
+            "value": "Wing_umbrella"
+        },
+        {
+            "label": "날개를 잡다",
+            "value": "Wing_grab"
+        },
+        {
+            "label": "꼬리가 뻣뻣하다",
+            "value": "Stiff_tail"
+        },
+        {
+            "label": "꼬리로 감싸다",
+            "value": "Tail_wrap"
+        },
+        {
+            "label": "꼬리로 서다",
+            "value": "Tail_stand"
+        },
+        {
+            "label": "꼬리를 가리다",
+            "value": "Tail_censor"
+        },
+        {
+            "label": "꼬리를 당기다",
+            "value": "Tail_pull"
+        },
+        {
+            "label": "꼬리를 물다",
+            "value": "Tail_biting"
+        },
+        {
+            "label": "꼬리를 애무하다",
+            "value": "Tail_fondling"
+        },
+        {
+            "label": "꼬리를 얽히다",
+            "value": "Intertwined_tails"
+        },
+        {
+            "label": "꼬리를 올리다",
+            "value": "Tail_raised"
+        },
+        {
+            "label": "꼬리를 잡다",
+            "value": "Prehensile_tail"
+        },
+        {
+            "label": "내 꼬리를 잡다",
+            "value": "Holding_own_tail"
+        },
+        {
+            "label": "남의 꼬리를 잡다",
+            "value": "Holding_another's_tail"
+        },
+        {
+            "label": "꼬리를 잡다",
+            "value": "Tail_grab"
+        },
+        {
+            "label": "꼬리를 흔들다",
+            "value": "Tail_wagging"
+        }
+    ]
+}
