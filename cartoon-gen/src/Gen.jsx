@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { Buffer } from "buffer";
 import logo1 from "./img/logo1.jpg";
 import logo2 from "./img/logo2.png";
-
+import Loading from "./Loading";
 function Gen() {
   const navigate = useNavigate();
   // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
@@ -31,7 +31,9 @@ function Gen() {
   const [selectedResult2, setSelectedResults2] = useState([]);
   const [selectedResult3, setSelectedResults3] = useState([]);
   const [selectedResult4, setSelectedResults4] = useState([]);
+  const [loading, setLoading] = useState(false);
   const generate = async () => {
+    setLoading(true);
     console.log(makePrompt(selectedResult1), selectedLora1.value);
     console.log(makePrompt(selectedResult2), selectedLora2.value);
     console.log(makePrompt(selectedResult3), selectedLora3.value);
@@ -46,6 +48,7 @@ function Gen() {
         ],
       })
       .then((response) => {
+        setLoading(false);
         console.log(response);
         // setImage1(response.data.image1);
         // setImage1(decodeBase64(response.data.images[0]));
@@ -93,7 +96,10 @@ function Gen() {
     });
   };
   return (
-    <div className="App">
+    <div>
+    {loading ? <Loading /> : <div className="App">
+     
+      <div>
       <h1>네컷만화 생성기</h1>
       <div className="userInpuWrapper">
         <div className="cutWrapper_row">
@@ -310,6 +316,9 @@ function Gen() {
         <img id="img1" src={logo1} width={200} />
         <img src={logo2} width={100} />
       </div>
+    </div>
+    </div>
+}
     </div>
   );
 }
