@@ -154,7 +154,23 @@
   border-radius: 20px;
   background-color: #0057ff;
   font-family: "Pretendard", sans-serif;
+  box-shadow: 0 2px 20px rgba(21, 13, 131, 0.3);
 }
+
+#generateBtn:hover {
+  background-color: #ff9100;
+  cursor: pointer;
+}
+
+#generateBtn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#generateBtn:active {
+  background-color: hsl(32, 100%, 51%);
+}
+
 .footer {
   margin-top: 50px;
 }
