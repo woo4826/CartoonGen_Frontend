@@ -32,16 +32,18 @@ const SearchComponent = (props) => {
 
   return (
     <div>
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            checked={backgroundSelected}
-            onChange={handleBackgroundSelection}
-          />
-          배경 선택
-        </label>
-      </div>
+      {props.type !== "move" && (
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              checked={backgroundSelected}
+              onChange={handleBackgroundSelection}
+            />
+            배경 없애기
+          </label>
+        </div>
+      )}
       <VirtualizedSelect
         placeholder={props.type === "move" ? "행동" : "장소"}
         width="100%"
@@ -51,7 +53,7 @@ const SearchComponent = (props) => {
         }
         value={selectValue}
         multi={true}
-        disabled={backgroundSelected} // 드롭박스를 비활성화합니다
+        disabled={!props.type === "move" || backgroundSelected}
       />
     </div>
   );
