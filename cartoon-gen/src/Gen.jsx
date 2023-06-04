@@ -97,32 +97,41 @@ function Gen() {
   };
   return (
     <div>
-    {loading ? <Loading /> : <div className="App">
-     
-      <div>
-      <h1>네컷만화 생성기</h1>
-      <div className="userInpuWrapper">
-        <div className="cutWrapper_row">
-          <div className="cutWrapper">
-            <div className="cut_row">
-              <div className="cut">
-                <SearchComponent
-                  type="place"
-                  selectedResult={selectedResult1}
-                  setString={setString1}
-                  setSelectedResults={setSelectedResults1}
-                />
-              </div>
-              <div className="cut">
-                <SearchComponent
-                  type="move"
-                  setString={setString1}
-                  selectedResult={selectedResult1}
-                  setSelectedResults={setSelectedResults1}
-                />
-              </div>
-            </div>
-            {/*
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="App">
+          <div>
+            <h1 className="cutTitle">네컷만화 생성기</h1>
+            <span className="cutManual">
+              각 컷에 들어갈 내용을 드롭박스를 클릭해 입력해주세요.
+            </span>
+            <br />
+            <span className="cutManual">
+              '배경없애기' 체크박스를 활성화 하면 배경이 없는 만화가 만들어져요.
+            </span>
+            <div className="userInpuWrapper">
+              <div className="cutWrapper_row">
+                <div className="cutWrapper">
+                  <div className="cut_row">
+                    <div className="cut">
+                      <SearchComponent
+                        type="place"
+                        selectedResult={selectedResult1}
+                        setString={setString1}
+                        setSelectedResults={setSelectedResults1}
+                      />
+                    </div>
+                    <div className="cut">
+                      <SearchComponent
+                        type="move"
+                        setString={setString1}
+                        selectedResult={selectedResult1}
+                        setSelectedResults={setSelectedResults1}
+                      />
+                    </div>
+                  </div>
+                  {/*
             <ul>
               {selectedResult1.map((result, index) => (
                 <li key={index}>
@@ -142,14 +151,14 @@ function Gen() {
               ))}
             </ul>
              */}
-            <input
-              className="input_text"
-              value={string1}
-              onChange={(e) => {
-                setString1(e.target.value);
-              }}
-            />
-            {/* {selectedResult1.map((result, index) => (
+                  <input
+                    className="input_text"
+                    value={string1}
+                    onChange={(e) => {
+                      setString1(e.target.value);
+                    }}
+                  />
+                  {/* {selectedResult1.map((result, index) => (
               <React.Fragment key={index}>
                 <input
                   style={{ display: "inline-block", float: "left" }}
@@ -159,29 +168,29 @@ function Gen() {
                 />
               </React.Fragment>
             ))} */}
-            {loraSelector(selectedLora1, setSelecteLora1)}
-          </div>
+                  {loraSelector(selectedLora1, setSelecteLora1)}
+                </div>
 
-          <div className="cutWrapper">
-            <div className="cut_row">
-              <div className="cut">
-                <SearchComponent
-                  type="place"
-                  selectedResult={selectedResult2}
-                  setString={setString2}
-                  setSelectedResults={setSelectedResults2}
-                />
-              </div>
-              <div className="cut">
-                <SearchComponent
-                  type="move"
-                  selectedResult={selectedResult2}
-                  setString={setString2}
-                  setSelectedResults={setSelectedResults2}
-                />
-              </div>
-            </div>
-            {/*<ul>
+                <div className="cutWrapper">
+                  <div className="cut_row">
+                    <div className="cut">
+                      <SearchComponent
+                        type="place"
+                        selectedResult={selectedResult2}
+                        setString={setString2}
+                        setSelectedResults={setSelectedResults2}
+                      />
+                    </div>
+                    <div className="cut">
+                      <SearchComponent
+                        type="move"
+                        selectedResult={selectedResult2}
+                        setString={setString2}
+                        setSelectedResults={setSelectedResults2}
+                      />
+                    </div>
+                  </div>
+                  {/*<ul>
               {selectedResult2.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -199,37 +208,37 @@ function Gen() {
                 </li>
               ))}
                 </ul>*/}
-            <input
-              className="input_text"
-              value={string2}
-              onChange={(e) => {
-                setString2(e.target.value);
-              }}
-            />
-            {loraSelector(selectedLora2, setSelecteLora2)}
-          </div>
-        </div>
-        <div className="cutWrapper_row">
-          <div className="cutWrapper">
-            <div className="cut_row">
-              <div className="cut">
-                <SearchComponent
-                  type="place"
-                  selectedResult={selectedResult3}
-                  setString={setString3}
-                  setSelectedResults={setSelectedResults3}
-                />
+                  <input
+                    className="input_text"
+                    value={string2}
+                    onChange={(e) => {
+                      setString2(e.target.value);
+                    }}
+                  />
+                  {loraSelector(selectedLora2, setSelecteLora2)}
+                </div>
               </div>
-              <div className="cut">
-                <SearchComponent
-                  type="move"
-                  selectedResult={selectedResult3}
-                  setString={setString3}
-                  setSelectedResults={setSelectedResults3}
-                />
-              </div>
-            </div>
-            {/*<ul>
+              <div className="cutWrapper_row">
+                <div className="cutWrapper">
+                  <div className="cut_row">
+                    <div className="cut">
+                      <SearchComponent
+                        type="place"
+                        selectedResult={selectedResult3}
+                        setString={setString3}
+                        setSelectedResults={setSelectedResults3}
+                      />
+                    </div>
+                    <div className="cut">
+                      <SearchComponent
+                        type="move"
+                        selectedResult={selectedResult3}
+                        setString={setString3}
+                        setSelectedResults={setSelectedResults3}
+                      />
+                    </div>
+                  </div>
+                  {/*<ul>
               {selectedResult3.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -247,36 +256,36 @@ function Gen() {
                 </li>
               ))}
             </ul>*/}
-            <input
-              className="input_text"
-              value={string3}
-              onChange={(e) => {
-                setString3(e.target.value);
-              }}
-            />
-            {loraSelector(selectedLora3, setSelecteLora3)}
-          </div>
+                  <input
+                    className="input_text"
+                    value={string3}
+                    onChange={(e) => {
+                      setString3(e.target.value);
+                    }}
+                  />
+                  {loraSelector(selectedLora3, setSelecteLora3)}
+                </div>
 
-          <div className="cutWrapper">
-            <div className="cut_row">
-              <div className="cut">
-                <SearchComponent
-                  type="place"
-                  selectedResult={selectedResult4}
-                  setString={setString4}
-                  setSelectedResults={setSelectedResults4}
-                />
-              </div>
-              <div className="cut">
-                <SearchComponent
-                  type="move"
-                  selectedResult={selectedResult4}
-                  setString={setString4}
-                  setSelectedResults={setSelectedResults4}
-                />
-              </div>
-            </div>
-            {/*<ul>
+                <div className="cutWrapper">
+                  <div className="cut_row">
+                    <div className="cut">
+                      <SearchComponent
+                        type="place"
+                        selectedResult={selectedResult4}
+                        setString={setString4}
+                        setSelectedResults={setSelectedResults4}
+                      />
+                    </div>
+                    <div className="cut">
+                      <SearchComponent
+                        type="move"
+                        selectedResult={selectedResult4}
+                        setString={setString4}
+                        setSelectedResults={setSelectedResults4}
+                      />
+                    </div>
+                  </div>
+                  {/*<ul>
               {selectedResult4.map((result, index) => (
                 <li key={index}>
                   {result.label} {result.value}
@@ -294,31 +303,33 @@ function Gen() {
                 </li>
               ))}
                 </ul>*/}
-            <input
-              className="input_text"
-              value={string4}
-              onChange={(e) => {
-                setString4(e.target.value);
-              }}
-            />
-            {loraSelector(selectedLora4, setSelecteLora4)}
+                  <input
+                    className="input_text"
+                    value={string4}
+                    onChange={(e) => {
+                      setString4(e.target.value);
+                    }}
+                  />
+                  {loraSelector(selectedLora4, setSelecteLora4)}
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button id="generateBtn" onClick={generate}>
+                생성
+              </button>
+            </div>
+            <div>
+              {/*<img src={"data:image/jpeg;base64," + image1.data} /> */}
+            </div>
+            <div className="footer">
+              <img id="img1" src={logo1} width={200} />
+              <img src={logo2} width={100} />
+            </div>
           </div>
         </div>
-      </div>
-
-      <div>
-        <button id="generateBtn" onClick={generate}>
-          생성
-        </button>
-      </div>
-      <div>{/*<img src={"data:image/jpeg;base64," + image1.data} /> */}</div>
-      <div className="footer">
-        <img id="img1" src={logo1} width={200} />
-        <img src={logo2} width={100} />
-      </div>
-    </div>
-    </div>
-}
+      )}
     </div>
   );
 }

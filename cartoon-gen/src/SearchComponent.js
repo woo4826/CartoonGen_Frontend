@@ -31,9 +31,9 @@ const SearchComponent = (props) => {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "row" }}>
       {props.type !== "move" && (
-        <div>
+        <div style={{ flex: 0.9, marginRight: 10, marginTop: 5 }}>
           <label>
             <input
               type="checkbox"
@@ -44,17 +44,19 @@ const SearchComponent = (props) => {
           </label>
         </div>
       )}
-      <VirtualizedSelect
-        placeholder={props.type === "move" ? "행동" : "장소"}
-        width="100%"
-        options={options}
-        onChange={(selectValue) =>
-          handleSelectResult(selectValue.map((item) => item))
-        }
-        value={selectValue}
-        multi={true}
-        disabled={!props.type === "move" || backgroundSelected}
-      />
+      <div style={{ flex: 1 }}>
+        <VirtualizedSelect
+          placeholder={props.type === "move" ? "행동" : "장소"}
+          width="100%"
+          options={options}
+          onChange={(selectValue) =>
+            handleSelectResult(selectValue.map((item) => item))
+          }
+          value={selectValue}
+          multi={true}
+          disabled={!props.type === "move" || backgroundSelected}
+        />
+      </div>
     </div>
   );
 };
