@@ -39,7 +39,7 @@ function Gen() {
     console.log(makePrompt(selectedResult3), selectedLora3.value);
     console.log(makePrompt(selectedResult4), selectedLora4.value);
     axios
-      .post("http://127.0.0.1:8000/fastapi/make", {
+      .post("http://121.129.210.64:18901/fastapi/make", {
         prompt: [
           string1 + selectedLora1.value,
           string2 + selectedLora2.value,
