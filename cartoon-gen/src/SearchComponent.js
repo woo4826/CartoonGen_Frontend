@@ -20,6 +20,8 @@ const SearchComponent = (props) => {
 
   const handleBackgroundSelection = (event) => {
     setBackgroundSelected(event.target.checked);
+    console.log("setstate changed")
+    console.log(event.target.checked)
   };
 
   const handleSelectResult = (item) => {

@@ -37,36 +37,58 @@ function Gen() {
   const [backgroundSelected4, setBackgroundSelected4] = useState(false);
 
   const [loading, setLoading] = useState(false);
+  function isEmpty(str){
+		if(typeof str == "undefined" || str == null || str == "")
+			return true;
+		else
+			return false ;
+	}
+  function  getPrompt (userstring, userLora,hasBack){
+    var req = "";
+    if(!isEmpty(userstring)){
+      req+=userstring;
+    }
+    if(hasBack){
+      req+=", simple background"
+    }
+    console.log(userLora.value==="undefined");
+    if(!isEmpty(userLora.value)){
+      req+=userLora.value;
+    }
+    else{
+      req+=options[0].value
+    }
+    return req;
+  }
   const generate = async () => {
     setLoading(true);
-    console.log(makePrompt(selectedResult1), selectedLora1.value,backgroundSelected1?"simple background":"".toString());
-    console.log(makePrompt(selectedResult2), selectedLora2.value,backgroundSelected2?"simple background":"".toString());
-    console.log(makePrompt(selectedResult3), selectedLora3.value,backgroundSelected3?"simple background":"".toString());
-    console.log(makePrompt(selectedResult4), selectedLora4.value,backgroundSelected4?"simple background":"".toString());
+    console.log(backgroundSelected1);
+    console.log(backgroundSelected2);
+    console.log(backgroundSelected3);
+    console.log(backgroundSelected4);
+    var req1 = getPrompt(string1,selectedLora1,backgroundSelected1)
+    var req2 = getPrompt(string2,selectedLora2,backgroundSelected2)
+    var req3 = getPrompt(string3,selectedLora3,backgroundSelected3)
+    var req4 = getPrompt(string4,selectedLora4,backgroundSelected4)
+    console.log(req1);
+    console.log(req2);
+    console.log(req3);
+    console.log(req4);
+    const prompt = [req1,req2,req3,req4];
+
+     console.log(prompt.toString())
     axios
       .post("http://121.129.210.64:18902/fastapi/make", {
-        prompt: [
-          string1 +backgroundSelected1?"simple background":"" +selectedLora1.value  ,
-          string2 +backgroundSelected2?"simple background":"" +selectedLora2.value,
-          string3 +backgroundSelected3?"simple background":"" +selectedLora3.value,
-          string4 +backgroundSelected4?"simple background":"" +selectedLora4.value,
-        ],
+        prompt: prompt
       })
       .then((response) => {
         setLoading(false);
         console.log(response);
         // setImage1(response.data.image1);
         // setImage1(decodeBase64(response.data.images[0]));
-        var state = {
-          image0: response.data.images[0] + backgroundSelected1?"simple background":"",
-          image1: response.data.images[1]+ backgroundSelected2?"simple background":"",
-          image2: response.data.images[2]+ backgroundSelected3?"simple background":"",
-          image3: response.data.images[3]+ backgroundSelected4?"simple background":"",
-        };
-        console.log(state);
         navigate("/result", {
           state: {
-            image0: response.data.images[0] ,
+            image0: response.data.images[0],
             image1: response.data.images[1],
             image2: response.data.images[2],
             image3: response.data.images[3],
