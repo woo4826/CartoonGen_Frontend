@@ -9729,3 +9729,44 @@ src/SearchComponent.js
   Line 16:23:  'setSelectedValue' is assigned a value but never used    no-unused-vars
 
 webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:18559) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:18559) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view cartoon-gen in the browser.
+
+  Local:            http://localhost:18901
+  On Your Network:  http://192.168.0.16:18901
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:20898) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20898) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view cartoon-gen in the browser.
+
+  Local:            http://localhost:18901
+  On Your Network:  http://192.168.0.16:18901
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
