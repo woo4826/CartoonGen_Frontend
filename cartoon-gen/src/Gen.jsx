@@ -12,10 +12,10 @@ function Gen() {
   const navigate = useNavigate();
   // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
   const options = [
-    { label: "lora1", value: " <lora:byeori:0.75>," },
-    { label: "lora2", value: " <lora:garam:0.75>," },
-    { label: "lora3", value: " <lora:muni:0.75>," },
-    { label: "lora4", value: " <lora:taetae:0.75>," },
+    { label: "별이", value: " <lora:byeori:0.75>," },
+    { label: "가람", value: " <lora:garam:0.75>," },
+    { label: "무니", value: " <lora:muni:0.75>," },
+    { label: "태태", value: " <lora:taetae:0.75>," },
   ];
 
   const [image1, setImage1] = useState("");
@@ -39,7 +39,7 @@ function Gen() {
     console.log(makePrompt(selectedResult3), selectedLora3.value);
     console.log(makePrompt(selectedResult4), selectedLora4.value);
     axios
-      .post("http://121.129.210.64:18901/fastapi/make", {
+      .post("http://121.129.210.64:18902/fastapi/make", {
         prompt: [
           string1 + selectedLora1.value,
           string2 + selectedLora2.value,
