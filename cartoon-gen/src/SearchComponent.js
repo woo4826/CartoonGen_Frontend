@@ -14,7 +14,9 @@ const SearchComponent = (props) => {
   const setString = props.setString;
   const options = data.list;
   const [selectValue, setSelectedValue] = useState([]);
-  const [backgroundSelected, setBackgroundSelected] = useState(false);
+  const backgroundSelected = props.backgroundSelected;
+  const setBackgroundSelected = props.setBackgroundSelected;
+  // const [backgroundSelected, setBackgroundSelected] = useState(false);
 
   const handleBackgroundSelection = (event) => {
     setBackgroundSelected(event.target.checked);
