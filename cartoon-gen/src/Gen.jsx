@@ -12,10 +12,10 @@ function Gen() {
   const navigate = useNavigate();
   // <lora:byeori:0.75> <lora:garam:0.75> <lora:muni:0.75> <lora:taetae:0.75>
   const options = [
-    { label: "별이", value: " <lora:byeori:0.75>," },
-    { label: "가람", value: " <lora:garam:0.75>," },
-    { label: "무니", value: " <lora:muni:0.75>," },
-    { label: "태태", value: " <lora:taetae:0.75>," },
+    { label: "별이", value: ", <lora:byeori:0.75>" },
+    { label: "가람", value: ", <lora:garam:0.75>" },
+    { label: "무니", value: ", <lora:muni:0.75>" },
+    { label: "태태", value: ", <lora:taetae:0.75>" },
   ];
 
   const [image1, setImage1] = useState("");
@@ -366,7 +366,7 @@ function Gen() {
               {/*<img src={"data:image/jpeg;base64," + image1.data} /> */}
             </div>
             <div className="footer">
-              <img id="img1" src={logo1} width={200} />
+              <img id="img1" src={logo1} width={200} />-
               <img src={logo2} width={100} />
             </div>
           </div>

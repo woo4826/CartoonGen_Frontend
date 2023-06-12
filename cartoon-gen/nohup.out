@@ -9770,3 +9770,164 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:22209) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:22209) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view cartoon-gen in the browser.
+
+  Local:            http://localhost:18901
+  On Your Network:  http://192.168.0.16:18901
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:24159) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:24159) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Gen.jsx
+  Line 7:10:    'Buffer' is defined but never used                                                                         no-unused-vars
+  Line 21:10:   'image1' is assigned a value but never used                                                                no-unused-vars
+  Line 21:18:   'setImage1' is assigned a value but never used                                                             no-unused-vars
+  Line 41:54:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 103:9:   'makePrompt' is assigned a value but never used                                                            no-unused-vars
+  Line 121:9:   'handleDeleteResult' is assigned a value but never used                                                    no-unused-vars
+  Line 125:9:   'handleChangeValue' is assigned a value but never used                                                     no-unused-vars
+  Line 369:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 370:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:26275) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:26275) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view cartoon-gen in the browser.
+
+  Local:            http://localhost:18901
+  On Your Network:  http://192.168.0.16:18901
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> cartoon-gen@0.1.0 start2
+> export PORT=18901 && react-scripts start
+
+(node:35387) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:35387) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view cartoon-gen in the browser.
+
+  Local:            http://localhost:18901
+  On Your Network:  http://192.168.0.16:18901
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
